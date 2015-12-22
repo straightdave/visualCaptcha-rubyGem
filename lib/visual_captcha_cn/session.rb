@@ -1,7 +1,7 @@
-class VisualCaptcha::Session
+class VisualCaptchaCN::Session
   attr_accessor :session, :namespace
 
-  def initialize(session, namespace = 'visualcaptcha')
+  def initialize(session, namespace = 'VisualCaptchaCN')
     self.session = session
     self.namespace = namespace
   end

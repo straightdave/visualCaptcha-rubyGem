@@ -1,7 +1,7 @@
 require 'json'
 require 'securerandom'
 
-class VisualCaptcha::Captcha
+class VisualCaptchaCN::Captcha
   # @param session is the default session object
   # @param assets_path is optional. Defaults to 'assets'. The path is relative to /
   # @param default_images is optional. Defaults to the array inside ./images.json. The path is relative to ./images/
@@ -10,7 +10,7 @@ class VisualCaptcha::Captcha
     @session = session
 
     @assets_path = assets_path
-    @assets_path ||= File.join VisualCaptcha.root, 'assets'
+    @assets_path ||= File.join VisualCaptchaCN.root, 'assets'
 
     @image_options = default_images
     @image_options ||= JSON.load File.read("#{@assets_path}/images.json")
@@ -67,7 +67,7 @@ class VisualCaptcha::Captcha
     read_file headers, audio_file_path, content_type
   end
 
-  # Stream image file given an index in the session visualCaptcha images array
+  # Stream image file given an index in the session VisualCaptchaCN images array
   # @param headers object. used to store http headers for streaming
   # @param index of the image in the session images array to send
   # @paran isRetina boolean. Defaults to false

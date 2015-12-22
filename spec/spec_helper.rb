@@ -1,1 +1,1 @@
-require 'visual_captcha'
+require 'visual_captcha_cn'

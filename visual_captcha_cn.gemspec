@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'visual_captcha/version'
+require 'visual_captcha_cn/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "visual_captcha"
-  spec.version       = VisualCaptcha::VERSION
-  spec.authors       = ["emotionLoop"]
-  spec.email         = "hello@emotionloop.com"
-  spec.description   = "RubyGem package for visualCaptcha's backend service"
-  spec.summary       = "visualCaptcha RubyGem Package"
-  spec.homepage      = "http://emotionloop.com"
+  spec.name          = "visual_captcha_cn"
+  spec.version       = VisualCaptchaCN::VERSION
+  spec.authors       = ["straightdave"]
+  spec.email         = "eyaswoo@163.com"
+  spec.description   = "Repackaged visualCaptcha's backend service for CN users"
+  spec.summary       = "visualCaptchaCn RubyGem Package"
+  spec.homepage      = "http://straightdave.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
