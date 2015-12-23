@@ -8,8 +8,14 @@ Gem::Specification.new do |spec|
   spec.version       = VisualCaptchaCN::VERSION
   spec.authors       = ["straightdave"]
   spec.email         = "eyaswoo@163.com"
-  spec.description   = "Repackaged visualCaptcha's backend service for CN users"
-  spec.summary       = "visualCaptchaCn RubyGem Package"
+  spec.description   = """
+                       Repackaged visualCaptcha's backend service,
+                       including translation and minor modification.
+                       Mainly for private use.
+                       Everything still belongs to original author:
+                       emotionLoop.
+                       """
+  spec.summary       = "visualCaptcha RubyGem Package in CN"
   spec.homepage      = "http://straightdave.github.io"
   spec.license       = "MIT"
 
