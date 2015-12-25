@@ -1,4 +1,4 @@
-
+[![Gem Version](https://badge.fury.io/rb/visual_captcha_cn.png)](https://badge.fury.io/rb/visual_captcha_cn)
 
 # visualCaptcha-rubyGem for CN users
 
